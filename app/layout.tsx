@@ -139,12 +139,13 @@ export default function RootLayout({
           }}
         />
         
-        {/* Preconnect to external domains for performance */}
+        {/* Preconnect para fontes Google e imagens externas */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://images.unsplash.com" />
-        
-        {/* DNS prefetch for performance */}
+        {/* Carregar fonte Inter com display=swap para não bloquear renderização */}
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+        {/* DNS prefetch para performance */}
         <link rel="dns-prefetch" href="//www.google-analytics.com" />
         <link rel="dns-prefetch" href="//www.googletagmanager.com" />
       </head>
