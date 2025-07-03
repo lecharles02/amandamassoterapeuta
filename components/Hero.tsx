@@ -39,12 +39,7 @@ export default function Hero() {
       aria-label="Seção principal - Amanda Rafaela Massoterapeuta"
     >
       <div className="absolute inset-0 z-0 pointer-events-none">
-        <img 
-          src="https://res.cloudinary.com/didmwzrw0/image/upload/v1750097317/Design_sem_nome_8_k8zuqn.png" 
-          alt="Background decorativo"
-          className="w-full h-full object-cover opacity-10 max-w-full"
-          draggable="false"
-        />
+        {/* Imagem de background removida */}
         <div className="absolute inset-0 bg-black opacity-10" />
       </div>
       <div className="container-custom relative z-10">

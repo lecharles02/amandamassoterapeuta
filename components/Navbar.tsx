@@ -6,15 +6,15 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-terracotta-100">
-      <div className="container-custom">
+      <div className="container-custom pb-2 md:pb-0">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
             <div>
-              <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-terracotta-600 to-terracotta-800 bg-clip-text text-transparent py-2 md:py-0">
+              <h1 className="text-base md:text-2xl font-bold bg-gradient-to-r from-terracotta-600 to-terracotta-800 bg-clip-text text-transparent py-2 md:py-0">
                 Amanda Terapias do Corpo & Alma
               </h1>
-              <div className="text-xs md:text-sm text-terracotta-700 font-medium -mt-1 md:-mt-0">
+              <div className="text-[10px] md:text-sm text-terracotta-700 font-medium -mt-1 md:-mt-0">
                 Massoterapeuta
               </div>
             </div>
