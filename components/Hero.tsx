@@ -34,7 +34,7 @@ export default function Hero() {
 
   return (
     <section 
-      className="relative min-h-[140vh] md:min-h-screen flex flex-col justify-center bg-gradient-to-br from-[#c2ad8f] to-[#ecd7b8] overflow-hidden pt-0"
+      className="relative min-h-[140vh] md:min-h-screen flex flex-col justify-center bg-gradient-to-br from-[#c2ad8f] to-[#ecd7b8] overflow-x-hidden pt-0 w-full max-w-full"
       role="banner"
       aria-label="Seção principal - Amanda Rafaela Massoterapeuta"
     >
@@ -42,7 +42,7 @@ export default function Hero() {
         <img 
           src="https://res.cloudinary.com/didmwzrw0/image/upload/v1750097317/Design_sem_nome_8_k8zuqn.png" 
           alt="Background decorativo"
-          className="w-full h-full object-cover opacity-10"
+          className="w-full h-full object-cover opacity-10 max-w-full"
           draggable="false"
         />
         <div className="absolute inset-0 bg-black opacity-10" />
@@ -102,7 +102,7 @@ export default function Hero() {
               <img
                 src="/imagens/Hero/asddasd.webp"
                 alt="Amanda Rafaela - Massoterapeuta Integrativa em Florianópolis oferecendo sessões de massagem tântrica e terapêutica"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover max-w-full"
                 loading="eager"
                 fetchPriority="high"
               />
