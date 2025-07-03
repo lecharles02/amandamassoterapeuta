@@ -63,7 +63,7 @@ export default function Services() {
   return (
     <section 
       id="servicos" 
-      className="py-16 bg-gray-50 animate-slide-up"
+      className="py-16 bg-gray-50"
       aria-labelledby="services-heading"
     >
       <div className="container-custom">

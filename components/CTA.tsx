@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <section className="py-20 bg-gradient-to-r from-terracotta-500 to-terracotta-600 w-full max-w-full overflow-x-hidden animate-slide-up">
+    <section className="py-20 bg-gradient-to-r from-terracotta-500 to-terracotta-600 w-full max-w-full overflow-x-hidden">
       <div className="container-custom w-full max-w-full">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
