@@ -46,29 +46,29 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <header>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-white text-shadow-lg">
+              <h1 className="text-2xl md:text-6xl lg:text-7xl font-bold mb-4 text-white text-shadow-lg">
                 Toque que
                 <span className="text-white block">Desbloqueia</span>
                 <span className="text-white block">Corpo, Emoções e Energia</span>
               </h1>
             </header>
             
-            <p className="text-xl md:text-2xl mb-8 text-white/90">
+            <p className="text-base md:text-2xl mb-6 text-white/90">
               Massagem Tântrica, Relaxante e Terapêutica em Florianópolis - Sessões únicas de massoterapia e terapias energéticas com foco em prazer consciente, alívio de dores e expansão do seu sentir.
             </p>
 
-            <section aria-label="Estatísticas e experiência" className="grid grid-cols-3 gap-4 mb-8">
+            <section aria-label="Estatísticas e experiência" className="grid grid-cols-3 gap-4 mb-6">
               <article className="text-center">
-                <p className="text-2xl font-bold text-white text-shadow-lg" aria-label={`${anos} anos de experiência`}>{anos}</p>
-                <p className="text-sm text-white/80">Anos de Experiência</p>
+                <p className="text-lg md:text-2xl font-bold text-white text-shadow-lg" aria-label={`${anos} anos de experiência`}>{anos}</p>
+                <p className="text-xs md:text-sm text-white/80">Anos de Experiência</p>
               </article>
               <article className="text-center">
-                <p className="text-2xl font-bold text-white text-shadow-lg" aria-label={`${clientes} clientes atendidos`}>{clientes}</p>
-                <p className="text-sm text-white/80">Clientes Atendidos</p>
+                <p className="text-lg md:text-2xl font-bold text-white text-shadow-lg" aria-label={`${clientes} clientes atendidos`}>{clientes}</p>
+                <p className="text-xs md:text-sm text-white/80">Clientes Atendidos</p>
               </article>
               <article className="text-center">
-                <p className="text-2xl font-bold text-white text-shadow-lg" aria-label={`${satisfacao} de satisfação`}>{satisfacao}</p>
-                <p className="text-sm text-white/80">Satisfação</p>
+                <p className="text-lg md:text-2xl font-bold text-white text-shadow-lg" aria-label={`${satisfacao} de satisfação`}>{satisfacao}</p>
+                <p className="text-xs md:text-sm text-white/80">Satisfação</p>
               </article>
             </section>
 

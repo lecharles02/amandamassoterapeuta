@@ -71,6 +71,18 @@ const nextConfig = {
           },
         ],
       },
+      {
+        source: '/_next/static/(.*)',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=3600, immutable' },
+        ],
+      },
+      {
+        source: '/imagens/(.*)',
+        headers: [
+          { key: 'Cache-Control', value: 'public, max-age=3600, immutable' },
+        ],
+      },
     ]
   },
 

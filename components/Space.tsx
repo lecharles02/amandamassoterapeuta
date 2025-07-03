@@ -59,10 +59,10 @@ export default function Space() {
             </ul>
           </div>
           {/* Grade de fotos */}
-          <div className="grid grid-cols-2 gap-20 px-2 md:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             {imagens.slice(0,2).map((src, idx) => (
-              <div key={idx} className="aspect-square max-w-lg mx-auto flex items-center justify-center h-80 md:h-[24rem]">
-                <img src={src} alt={`Espaço de massagem ${idx+1}`} className="w-full h-full object-cover" />
+              <div key={idx} className="aspect-square max-w-lg mx-auto flex items-center justify-center h-64 md:h-[24rem] w-full">
+                <img src={src} alt={`Espaço de massagem ${idx+1}`} className="w-full h-full object-cover rounded-xl" />
               </div>
             ))}
           </div>
