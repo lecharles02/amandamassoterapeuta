@@ -66,9 +66,6 @@ export default function Gallery() {
             Galeria
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-terracotta-500 to-terracotta-600 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Conheça o ambiente acolhedor e profissional onde você encontrará relaxamento e bem-estar
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
