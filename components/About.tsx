@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section 
       id="sobre" 
-      className="py-20 bg-white"
+      className="py-20 bg-white animate-fade-in"
       aria-labelledby="about-heading"
     >
       <div className="container-custom">

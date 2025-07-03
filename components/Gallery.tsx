@@ -59,7 +59,7 @@ export default function Gallery() {
   ]
 
   return (
-    <section id="galeria" className="py-20 bg-gray-50">
+    <section id="galeria" className="py-20 bg-gray-50 animate-slide-up">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-terracotta-600 to-terracotta-800 bg-clip-text text-transparent">

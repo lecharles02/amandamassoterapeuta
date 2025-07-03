@@ -152,6 +152,27 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <Analytics />
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            document.addEventListener('DOMContentLoaded', function() {
+              const animatedEls = document.querySelectorAll('.animate-fade-in, .animate-slide-up');
+              const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                  if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.animationPlayState = 'running';
+                    observer.unobserve(entry.target);
+                  }
+                });
+              }, { threshold: 0.1 });
+              animatedEls.forEach(el => {
+                el.style.opacity = 0;
+                el.style.animationPlayState = 'paused';
+                observer.observe(el);
+              });
+            });
+          `
+        }} />
       </body>
     </html>
   )

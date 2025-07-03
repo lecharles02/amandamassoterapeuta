@@ -34,7 +34,7 @@ export default function Hero() {
 
   return (
     <section 
-      className="relative min-h-[140vh] md:min-h-screen flex flex-col justify-center bg-gradient-to-br from-[#c2ad8f] to-[#ecd7b8] overflow-x-hidden pt-0 w-full max-w-full"
+      className="relative min-h-[140vh] md:min-h-screen flex flex-col justify-center bg-gradient-to-br from-[#c2ad8f] to-[#ecd7b8] overflow-x-hidden pt-0 w-full max-w-full animate-fade-in"
       role="banner"
       aria-label="Seção principal - Amanda Rafaela Massoterapeuta"
     >
