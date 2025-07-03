@@ -44,7 +44,7 @@ export default function Hero() {
       </div>
       <div className="container-custom relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
+          <div className="text-center md:text-left">
             <header>
               <h1 className="text-2xl md:text-6xl lg:text-7xl font-bold mb-4 text-white text-shadow-lg">
                 Toque que
