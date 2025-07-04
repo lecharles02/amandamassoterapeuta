@@ -9,7 +9,7 @@ export default function Space() {
       desc: 'Atmosfera relaxante com óleos essenciais e iluminação terapêutica.'
     },
     {
-      title: 'Camas Profissionais',
+      title: 'Maca e Futon Profissionais',
       desc: 'Equipamentos de massagem profissionais, amplos e confortáveis.'
     },
     {
@@ -28,8 +28,8 @@ export default function Space() {
   const imagens = [
     '/imagens/Meu Espaço/massagem-florianopolis.jpg.webp',
     '/imagens/Meu Espaço/sala-massoterapia-balneario-camboriu.jpg.webp',
-    '/imagens/Meu Espaço/quarto-massagem-tantrica-balneario.jpg.webp',
-    '/imagens/Meu Espaço/espaco-massagem-florianopolis.jpg.webp'
+    '/imagens/Meu Espaço/Espaço-massagem-balneario (1).webp',
+    '/imagens/Meu Espaço/Espaço-massagem-balneario (2).webp'
   ];
   return (
     <section id="espaco" className="py-20 bg-gray-50">
@@ -60,7 +60,7 @@ export default function Space() {
           </div>
           {/* Grade de fotos */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            {imagens.slice(0,2).map((src, idx) => (
+            {imagens.map((src, idx) => (
               <div key={idx} className="aspect-square max-w-lg mx-auto flex items-center justify-center h-64 md:h-[24rem] w-full">
                 <img src={src} alt={`Espaço de massagem ${idx+1}`} className="w-full h-full object-cover rounded-xl" />
               </div>
