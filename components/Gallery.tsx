@@ -17,28 +17,8 @@ export default function Gallery() {
       alt: "Amanda terapeuta tântrica 12"
     },
     {
-      src: "/imagens/Galeria/massagista-tantrica-sensual-amanda-balneario.jpg.webp",
-      alt: "Massagista tântrica sensual Amanda Balneário"
-    },
-    {
-      src: "/imagens/Galeria/amanda-terapia-tantrica-para-homens-balneario.jpg.webp",
-      alt: "Amanda terapia tântrica para homens Balneário"
-    },
-    {
-      src: "/imagens/Galeria/amanda-relaxamento-profundo-florianopolis.jpg.webp",
-      alt: "Amanda relaxamento profundo Florianópolis"
-    },
-    {
       src: "/imagens/Galeria/experiencia-relaxante-amanda-balneario.jpg.webp",
       alt: "Experiência relaxante Amanda Balneário"
-    },
-    {
-      src: "/imagens/Galeria/massagem-com-prazer-e-cuidado-amanda-balneario.jpg.webp",
-      alt: "Massagem com prazer e cuidado Amanda Balneário"
-    },
-    {
-      src: "/imagens/Galeria/amanda-massagem-sensual-e-terapeutica-florianopolis.jpg.webp",
-      alt: "Amanda massagem sensual e terapêutica Florianópolis"
     },
     {
       src: "/imagens/Galeria/amanda-especialista-massagem-sensual-balneario.jpg.webp",
